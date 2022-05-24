@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <CoinProvider>
       <MainLayout>
         <Head>
-          <title>Kripto Takip Uygulaması</title>
+          <title>Kripto Dünyası</title>
         </Head>
         <Component {...pageProps} />
       </MainLayout>
