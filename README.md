@@ -1,14 +1,7 @@
 <h1 align="center">Kripto Takip Uygulaması 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/kripto takip uygulaması" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/kripto takip uygulaması.svg">
-  </a>
-  <a href="l" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
+ 
+
   <a href="https://twitter.com/Skipperlla" target="_blank">
     <img alt="Twitter: Skipperlla" src="https://img.shields.io/twitter/follow/Skipperlla.svg?style=social" />
   </a>
