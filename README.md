@@ -20,7 +20,7 @@ yarn && yarn dev
 
 👤 **Skipperlla**
 
-* Website: skipperlla.xyz
+* Website: [skipperlla.xyz](https://www.skipperlla.xyz/)
 * Twitter: [@Skipperlla](https://twitter.com/Skipperlla)
 * Github: [@Skipperlla](https://github.com/Skipperlla)
 * LinkedIn: [@Ömer Esmer](https://linkedin.com/in/ömeresmer)
