@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Kripto Takip Uygulaması 👋</h1>
+<p>
+ 
 
-## Getting Started
+  <a href="https://twitter.com/Skipperlla" target="_blank">
+    <img alt="Twitter: Skipperlla" src="https://img.shields.io/twitter/follow/Skipperlla.svg?style=social" />
+  </a>
+</p>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+### ✨ [Demo](https://kripto-dunyasi.vercel.app/)
+
+## Install
+
+```sh
+yarn && yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+👤 **Skipperlla**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+* Website: [skipperlla.xyz](https://www.skipperlla.xyz/)
+* Twitter: [@Skipperlla](https://twitter.com/Skipperlla)
+* Github: [@Skipperlla](https://github.com/Skipperlla)
+* LinkedIn: [@Ömer Esmer](https://linkedin.com/in/ömeresmer)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+***
 
-## Learn More
+# Kullandığım Kütüphaneler
 
-To learn more about Next.js, take a look at the following resources:
+## axios
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gerekli api endpointlerine istek atmak için kullandığım kütüphane.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## chart.js - react-chartjs-2
 
-## Deploy on Vercel
+Kripto paraların 24 saatlik, 30 günlük, 3 aylık ve 1 yıllık fiyat grafiklerini göstermek için kullandığım kütüphane.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## moment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Kripto paralarının fiyat grafiklerinin hangi saate ait olduklarını istediğim formata dönüştürmesini sağlayan kütüphane.
+
+## react-alice-carousel
+
+Ana sayfada top 10 kripto paraları slider şeklinde göstermek için kullandığım kütüphane.
+
+## react-currency-format
+
+Kripto paraların fiyatlarını biçimlendirmek için kullandığım kütüphane.
+
+## react-html-parser
+
+Kripto paraların açıklamasında gelen html tag'lerini ayrıştırmak için kullandığım kütüphane.
+
+## react-paginate
+
+Kripto paraları sayfalamak için kullandığım kütüphane
+
+## react-spinners
+
+Sayfa'nın ilk yükleme anında gösterttiğim yüklenme bar'ı.
+
+## TailwindCSS
+
+CSS yazımını kolaylaştırmak için yazılmış bir kütüphanedir.
+
+
+# Kullandığım optimize hook'lar
+- React.memo
