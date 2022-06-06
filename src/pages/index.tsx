@@ -6,15 +6,17 @@ import { useRouter } from "next/router";
 import AliceCarousel from "react-alice-carousel";
 import axios from "axios";
 const index = () => {
+  let config = {
+    headers: {
+      Authorization: `Bearer "1000.f5eca7c441c9994793890c7edc3616f5.b1b307c1f500cf0378df891c32aad628`,
+    },
+  };
+
   const uploadPhoto = async () => {
     await axios
       .post(
         "https://creator.zoho.com/api/v2/cosmedica/crm/form/Leads",
-        {
-          headers: {
-            Authorization: `Bearer ${"1000.f5eca7c441c9994793890c7edc3616f5.b1b307c1f500cf0378df891c32aad628"}`,
-          },
-        },
+
         {
           data: {
             Email: "gokhantesttest@gmail.com",
@@ -24,6 +26,11 @@ const index = () => {
               first_name: "Gökhan",
               last_name: "Bayraktar",
             },
+          },
+        },
+        {
+          headers: {
+            Authorization: `Bearer 1000.a59442b6c6f0b92608f56f8073788ec9.f32723bf68740defc24bbafb235398a9`,
           },
         }
       )
