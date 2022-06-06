@@ -4,8 +4,40 @@ import { CryptoTable, LoadingSpinner, CarouselCard } from "@components/index";
 import { useCoin } from "@utils/context/CoinContext";
 import { useRouter } from "next/router";
 import AliceCarousel from "react-alice-carousel";
-
+import axios from "axios";
 const index = () => {
+  const uploadPhoto = async () => {
+    await axios
+      .post(
+        "https://creator.zoho.com/api/v2/cosmedica/crm/form/Leads",
+        {
+          headers: {
+            Authorization: `Bearer ${"1000.f5eca7c441c9994793890c7edc3616f5.b1b307c1f500cf0378df891c32aad628"}`,
+          },
+        },
+        {
+          data: {
+            Email: "gokhantesttest@gmail.com",
+            Converted: "No",
+            Country: "Turkey",
+            Name: {
+              first_name: "Gökhan",
+              last_name: "Bayraktar",
+            },
+          },
+        }
+      )
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  useEffect(() => {
+    uploadPhoto();
+  }, []);
+
   // * Context
   const { Coins, coins, isLoading, topTen, carousel, isCarouselLoading } =
     useCoin();
