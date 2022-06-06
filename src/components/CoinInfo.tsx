@@ -42,7 +42,9 @@ const CoinInfo = ({
       />
       <h1 className="text-5xl font-semibold mb-5">{name}</h1>
       <p className="text-base px-6 pb-4 tracking-wide	font-light">
-        {ReactHtmlParser(description?.en?.split(". ")[0])}
+        {/* {description?.en} */}
+        {/* {ReactHtmlParser(description?.en?.split(". ")[0])} */}
+        {ReactHtmlParser(description?.en)}
       </p>
       <div className="px-5 pb-5 mt-3 w-full text-2xl ">
         <div className="flex w-full mb-5">
